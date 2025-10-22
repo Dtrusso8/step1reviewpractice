@@ -1,0 +1,72 @@
+{
+  "activityName": "Diuretic Site of Action",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Acetazolamide"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 5.850693333333333,
+      "y": 63.6729,
+      "width": 17,
+      "height": 7
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "K+ sparing diuretics"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "decoy": false,
+      "x": 5.850693333333333,
+      "y": 88.67901234567901,
+      "width": 17,
+      "height": 7
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Mannitol"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 5.850693333333333,
+      "y": 56.04939999999999,
+      "width": 17,
+      "height": 7
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Loop Diuretics"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 5.885414444444445,
+      "y": 71.29630000000002,
+      "width": 17,
+      "height": 7
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "Thiazide Diuretics"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 5.850693333333333,
+      "y": 79.29012345679011,
+      "width": 17,
+      "height": 7
+    }
+  ],
+  "savedAt": "2025-09-08T14:36:13.286Z",
+  "version": "2.0"
+}

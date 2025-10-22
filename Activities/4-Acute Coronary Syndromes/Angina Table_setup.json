@@ -1,0 +1,163 @@
+{
+  "activityName": "Angina Table",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "On exertion"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 26,
+      "y": 20.296296296296294,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Mild exertion or at rest"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 42.583333333333336,
+      "y": 20.074074074074076,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "At rest"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 59.166666666666664,
+      "y": 20.296255555555557,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "No elevation"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 26,
+      "y": 34.74074074074074,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "No elevation"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 42.583333333333336,
+      "y": 34.66666666666667,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "Elevated"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 59.166666666666664,
+      "y": 34.44444444444444,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-6",
+      "acceptedTerms": [
+        "Elevated"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 75.66666666666667,
+      "y": 34.37037037037037,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-7",
+      "acceptedTerms": [
+        "Possible ST Depression and/or T wave inversion"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 25.916599999999995,
+      "y": 63.9259,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-8",
+      "acceptedTerms": [
+        "Transmural"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 75.66666666666667,
+      "y": 48.81481481481482,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-9",
+      "acceptedTerms": [
+        "Subendocardial"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 59.166666666666664,
+      "y": 48.51851851851852,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-10",
+      "acceptedTerms": [
+        "None"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 42.583333333333336,
+      "y": 48.6667,
+      "width": 14.916666666666666,
+      "height": 11.925925925925926
+    },
+    {
+      "id": "zone-1758906771654",
+      "acceptedTerms": [
+        "ST Depression and/or T wave inversion"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 59.416599999999995,
+      "y": 63.9259,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-1758906771840",
+      "acceptedTerms": [
+        "ST Elevation"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 75.8333,
+      "y": 63.9259,
+      "width": 15,
+      "height": 25
+    }
+  ],
+  "savedAt": "2025-09-26T17:18:32.867Z",
+  "version": "2.0"
+}

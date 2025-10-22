@@ -1,0 +1,50 @@
+{
+  "activityName": "AIDS - Defining Illness",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "PCP pneumonia",
+        "HSV reactivation",
+        "Coccidiomycosis",
+        "Cryptosporidium"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 24.14,
+      "y": 14.5,
+      "width": 33.78,
+      "height": 28.92
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Candidal Esophagitis",
+        "Toxoplasmosis",
+        "Histoplasmosis"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 23.71,
+      "y": 47.61,
+      "width": 35.28,
+      "height": 22.95
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Cryptococcal Meningitis",
+        "CMV retinitis/esophagitis",
+        "Disseminated Mycobacterium Avium"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 23.46,
+      "y": 72.25,
+      "width": 35.11,
+      "height": 23.51
+    }
+  ],
+  "savedAt": "2025-09-26T17:03:36.871Z",
+  "version": "2.0"
+}

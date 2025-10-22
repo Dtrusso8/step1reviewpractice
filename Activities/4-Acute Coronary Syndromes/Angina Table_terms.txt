@@ -1,0 +1,16 @@
+[random]
+On exertion
+Mild exertion or at rest
+At rest
+
+[random]
+No elevation
+Elevated
+None
+
+[random]
+Subendocardial
+Transmural
+Possible ST Depression and/or T wave inversion 
+ST Depression and/or T wave inversion
+ST Elevation

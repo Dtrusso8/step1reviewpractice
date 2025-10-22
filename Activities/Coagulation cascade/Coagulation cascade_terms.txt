@@ -1,0 +1,8 @@
+Apixaban  
+Argatroban  
+Bivalirudin   
+Dabigatran  
+Enoxaparin  
+Fondaparinux  
+UFH  
+Warfarin

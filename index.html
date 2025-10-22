@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Offline access button fixed to opening screen -->
+    <div style="text-align: center; margin: 12px 0;">
+        <button id="select-offline-folder-btn" class="secondary-button" style="opacity: 0.8; font-size: 0.9rem;">
+            Select Folder (Offline)
+        </button>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Drag & Drop</h1>
+            <p>
+                <button id="open-instructions-btn" class="secondary-button" style="font-size: 1rem;">Instructions</button>
+            </p>
+        </header>
+
+        <!-- Student Activity Title - Above Controls -->
+        <div class="student-activity-title" id="student-activity-title" style="display: none;">
+            <h2 id="activity-title-display">Student Mode - Activity</h2>
+            <div class="mode-indicator student-indicator">Student Mode</div>
+        </div>
+
+        <!-- Student Controls Container - Above Image -->
+        <div class="student-controls-container" id="student-controls-container" style="display: none;">
+            <div class="mode-controls">
+                <button id="start-activity-btn" class="primary-button">Start Activity</button>
+                <button id="back-to-selection-student-btn" class="secondary-button">Back to Selection</button>
+                <button id="back-to-teacher-btn" class="secondary-button">Teacher Mode</button>
+            </div>
+        </div>
+
+        <!-- Student Info Container - Above Image -->
+        <div class="student-info-container" id="student-info-container" style="display: none;">
+            <div class="student-name-display">
+                <strong>Student:</strong> <span id="display-student-name"></span>
+            </div>
+            <!-- Zoom Buttons Here -->
+            <div class="zoom-controls">
+                <button class="zoom-button" onclick="zoomImage('in', 'shared-image-container')">+</button>
+                <button class="zoom-button" onclick="zoomImage('out', 'shared-image-container')">−</button>
+                <button class="zoom-button" onclick="resetZoom('shared-image-container')">Reset</button>
+            </div>
+            <div class="timer-display">
+                <strong>Time:</strong> <span id="timer-display">00:00</span>
+            </div>
+        </div>
+
+        <!-- Activity Selection -->
+        <div class="activity-selection" id="activity-selection">
+            <h2>Select Activity</h2>
+            <div class="name-input-section">
+                <label for="student-name">Enter your name:</label>
+                <input type="text" id="student-name" placeholder="Your name" required>
+            </div>
+            <select id="activity-selector">
+                <option value="">Choose an activity...</option>
+            </select>
+            <button id="load-activity-btn" class="primary-button">Load Activity</button>
+        </div>
+
+        <!-- Shared Image Container for Both Modes -->
+        <div class="activity-image-section" id="activity-image-section" style="display: none;">
+            <div class="image-container" id="shared-image-container">
+                <img id="activity-image" alt="Activity Image">
+                
+                <!-- Drop zones will be added here dynamically -->
+                <div id="drop-zones-container"></div>
+            </div>
+        </div>
+
+        <!-- Teacher Mode -->
+        <div class="teacher-mode" id="teacher-mode" style="display: none;">
+            <div class="mode-header">
+                <h2 id="activity-title">Teacher Mode - Activity Setup</h2>
+                <div class="mode-indicator teacher-indicator">👨‍🏫 Teacher Mode</div>
+                                   <div class="mode-controls">
+                       <button id="add-zone-btn" class="secondary-button">Add Drop Zone</button>
+                       <button id="clear-terms-btn" class="secondary-button">Clear All Terms</button>
+                       <button id="save-to-file-btn" class="primary-button">Save to File</button>
+                       <button id="switch-to-student-btn" class="primary-button">Switch to Student Mode</button>
+                       <button id="back-to-selection-btn" class="secondary-button">Back to Selection</button>
+                   </div>
+            </div>
+
+            <div class="teacher-area">
+                <!-- Zoom controls for teacher mode -->
+                <div class="zoom-controls">
+                    <button class="zoom-button" onclick="zoomImage('in', 'shared-image-container')">Zoom In</button>
+                    <button class="zoom-button" onclick="zoomImage('out', 'shared-image-container')">Zoom Out</button>
+                    <button class="zoom-button" onclick="resetZoom('shared-image-container')">Reset</button>
+                </div>
+
+                <!-- Teacher instructions -->
+                <div class="teacher-instructions">
+                    <p><strong>Teacher Setup Instructions:</strong></p>
+                    <ul>
+                        <li>Click "Add Drop Zone" to create new zones</li>
+                        <li>Drag zones to position them on the image</li>
+                        <li>Drag the resize handle (small circle) in the bottom-right corner to resize zones</li>
+                        <li>Click zones to configure their assigned terms</li>
+                        <li>Use "Clear All Terms" to reset assignments while keeping zones</li>
+                        <li>Switch to Student Mode when setup is complete</li>
+                    </ul>
+                </div>
+
+                <!-- Terms list -->
+                <div class="terms-container">
+                    <h3>Terms to Assign:</h3>
+                    <div id="terms-list"></div>
+                </div>
+            </div>
+
+            <!-- Drop zone configuration panel -->
+            <div class="zone-config" id="zone-config" style="display: none;">
+                <h3>Configure Drop Zone</h3>
+                <div class="config-form">
+                    
+                    <!-- Zone configuration fields -->
+                    <div class="zone-config-fields" id="zone-config-fields">
+                        <label for="zone-accepted-terms">Accepted Terms:</label>
+                        <div class="terms-multiselect" id="zone-accepted-terms">
+                            <!-- Terms will be populated dynamically -->
+                        </div>
+                        
+                        <label for="zone-min-required">Min Labels Required:</label>
+                        <input type="number" id="zone-min-required" min="0" value="1" step="1">
+                        
+                        <label for="zone-max-allowed">Max Labels Allowed:</label>
+                        <div class="max-labels-input">
+                            <input type="number" id="zone-max-allowed" min="1" value="1" step="1">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="zone-unlimited">
+                                <span class="checkmark"></span>
+                                No limit
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <label for="zone-x">X Position (%):</label>
+                    <input type="number" id="zone-x" min="0" max="100" step="1">
+                    
+                    <label for="zone-y">Y Position (%):</label>
+                    <input type="number" id="zone-y" min="0" max="100" step="1">
+                    
+                    <label for="zone-width">Width (%):</label>
+                    <input type="number" id="zone-width" min="5" max="50" value="15" step="0.1">
+                    
+                    <label for="zone-height">Height (%):</label>
+                    <input type="number" id="zone-height" min="5" max="50" value="10" step="0.1">
+                    
+                    <div class="config-buttons">
+                        <button id="save-zone-btn" class="primary-button">Save Zone</button>
+                        <button id="cancel-zone-btn" class="secondary-button">Cancel</button>
+                        <button id="delete-zone-btn" class="danger-button">Delete Zone</button>
+                    </div>
+                    
+                    <!-- Resize All Zones Button -->
+                    <div class="resize-all-section">
+                        <button id="resize-all-zones-btn" class="secondary-button">Resize All Zones to Current Dimensions</button>
+                        <p class="resize-hint">This will resize all existing drop zones to match the Width (%) and Height (%) values above.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student Mode -->
+        <div class="student-mode" id="student-mode" style="display: none;">
+
+            <!-- Draggable labels - Fixed position outside image container -->
+            <div class="labels-container" id="labels-container">
+                <h3>Terms to Place:</h3>
+                <div class="student-instructions">
+                    <p>Click "Start Activity" to begin dragging and dropping!</p>
+                </div>
+                <!-- Labels will be added here dynamically -->
+            </div>
+
+            <div class="student-area">
+                <!-- Student mode uses the shared image container -->
+                <!-- The shared image container is already defined above -->
+            </div>
+
+            <!-- Progress and feedback -->
+            <div class="progress-section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p id="progress-text">0 of 0 labels placed correctly</p>
+            </div>
+
+                <!-- Submit Button -->
+    <div class="submit-section">
+        <button id="submit-score-btn" class="primary-button" style="display: none;">Submit Score</button>
+    </div>
+
+
+    <!-- Google Sheet Form (Hidden) -->
+    <form id="googleSheetForm" action="https://script.google.com/macros/s/AKfycbyw0AR6itqy6CrvoOYrzyDwg1EawucJ2Oj06-i032QC_FKREzj7qE5vrHvSfdrxpsvL/exec" method="POST" target="hidden-iframe" style="display: none;">
+        <input type="hidden" id="formName" name="name" value="">
+        <input type="hidden" id="formAssignmentName" name="assignmentName" value="">
+        <input type="hidden" id="formTimeSubmitted" name="timeSubmitted" value="">
+        <input type="hidden" id="formScore" name="score" value="">
+        <input type="hidden" id="formPercentage" name="percentage" value="">
+        <input type="hidden" id="formDuration" name="duration" value="">
+    </form>
+    <iframe name="hidden-iframe" style="display:none;"></iframe>
+
+    <!-- Reset button -->
+    <button id="reset-btn" class="reset-button">Reset Activity</button>
+
+            <!-- Feedback messages -->
+            <div id="feedback" class="feedback"></div>
+        </div>
+    </div>
+
+    <!-- Password Modal for Teacher Mode -->
+    <div id="password-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h3>Enter Teacher Password</h3>
+            <input type="password" id="teacher-password" placeholder="Enter password" maxlength="4">
+            <div class="modal-buttons">
+                <button id="submit-password-btn" class="primary-button">Submit</button>
+                <button id="cancel-password-btn" class="secondary-button">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instructions Modal -->
+    <div id="instructions-modal" class="modal" style="display: none;">
+        <div class="instructions-modal-content" role="dialog" aria-modal="true" aria-labelledby="instructions-title">
+            <button class="instructions-close" id="instructions-close" aria-label="Close">✕</button>
+            <div id="instructions-body">
+                <h2 id="instructions-title" style="margin-bottom: 12px;">Instructions</h2>
+                <div id="instructions-loader" style="text-align:center; padding: 20px;">Loading…</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="activity-loader.js"></script>
+    <script src="answer-handler.js"></script>
+    <script src="text-fitting.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

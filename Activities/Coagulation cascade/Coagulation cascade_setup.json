@@ -1,0 +1,59 @@
+{
+  "activityName": "Coagulation cascade",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Warfarin"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 34.76,
+      "y": 1.07,
+      "width": 15,
+      "height": 10
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Apixaban",
+        "Enoxaparin",
+        "Fondaparinux"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 69.72151761362258,
+      "y": 36.20833438394026,
+      "width": 19.42712320809605,
+      "height": 11.396499054453765
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "UFH"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 78.3032,
+      "y": 50.08276593124181,
+      "width": 20.12157390740523,
+      "height": 15.430829656209086
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Argatroban",
+        "Bivalirudin",
+        "Dabigatran"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 69.25722534965459,
+      "y": 67.07133249284777,
+      "width": 17.343771110168497,
+      "height": 16.206662464238956
+    }
+  ],
+  "savedAt": "2025-09-24T18:18:29.516Z",
+  "version": "2.0"
+}

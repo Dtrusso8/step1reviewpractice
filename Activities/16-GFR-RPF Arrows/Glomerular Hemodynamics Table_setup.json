@@ -1,0 +1,295 @@
+{
+  "activityName": "Glomerular Hemodynamics Table",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 27.565380749903362,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 61.08,
+      "y": 35.05,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 61.08,
+      "y": 50.84000000000001,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340101687",
+      "acceptedTerms": [
+        "↔"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 82.27764983500077,
+      "y": 86.22,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340101911",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 82.27764983500077,
+      "y": 75.23,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340102157",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 82.08,
+      "y": 67.37,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340102421",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 82.27764983500077,
+      "y": 59.95,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340102653",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 82.27764983500077,
+      "y": 51.62538074990337,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340102891",
+      "acceptedTerms": [
+        "↔"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 82.27764983500077,
+      "y": 42.125380749903364,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340103171",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 82.27764983500077,
+      "y": 34.86,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340103451",
+      "acceptedTerms": [
+        "↔"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 82.27764983500077,
+      "y": 27.565380749903362,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340103737",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 61.08,
+      "y": 86.22,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340104392",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 61.08,
+      "y": 75.09,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340104574",
+      "acceptedTerms": [
+        "↔"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 61.08,
+      "y": 67.07,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340104758",
+      "acceptedTerms": [
+        "↔"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 61.08,
+      "y": 60.24,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340104941",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 61.08,
+      "y": 42.43,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340105140",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 61.08,
+      "y": 27.565380749903362,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340105363",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 87.11,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340105579",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 75.83,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340105825",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 67.07,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340106105",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 59.95,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340106415",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 51.04,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340106727",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 42.58,
+      "width": 15,
+      "height": 6
+    },
+    {
+      "id": "zone-1757340106895",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 35.01,
+      "width": 15,
+      "height": 6
+    }
+  ],
+  "savedAt": "2025-09-24T18:22:42.902Z",
+  "version": "2.0"
+}

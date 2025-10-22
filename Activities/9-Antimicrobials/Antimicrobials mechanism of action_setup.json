@@ -1,0 +1,99 @@
+{
+  "activityName": "Antimicrobials mechanism of action",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Sulfamethoxazole",
+        "Trimethoprim"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 13.67,
+      "y": 14.96,
+      "width": 14.25,
+      "height": 30.15
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Ciprofloxacin"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 70.58,
+      "y": 10,
+      "width": 16.92,
+      "height": 21.56
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Vancomycin",
+        "Bacitracin"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 13.5,
+      "y": 59.33,
+      "width": 15.75,
+      "height": 11.48
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "Penecillin G",
+        "Piperacillin",
+        "Ceftriaxone"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 13.67,
+      "y": 74.22,
+      "width": 15.58,
+      "height": 22.15
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "Imipenem",
+        "Aztreonam"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 32.75,
+      "y": 73.56,
+      "width": 15.83,
+      "height": 20.67
+    },
+    {
+      "id": "zone-6",
+      "acceptedTerms": [
+        "Tobramycin",
+        "Doxycycline"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 66.5,
+      "y": 76.3,
+      "width": 17.58,
+      "height": 20.81
+    },
+    {
+      "id": "zone-14",
+      "acceptedTerms": [
+        "Clindamycin",
+        "Linezolid",
+        "Azithromycin"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 74.75,
+      "y": 45.85,
+      "width": 12.75,
+      "height": 24.37
+    }
+  ],
+  "savedAt": "2025-10-08T19:26:36.755Z",
+  "version": "2.0"
+}

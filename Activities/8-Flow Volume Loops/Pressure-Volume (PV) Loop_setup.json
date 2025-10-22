@@ -1,0 +1,161 @@
+{
+  "activityName": "PV Loop",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Isovolumetric Ventricular Relaxation"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 16.58,
+      "y": 28.74,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Reduced Ventricular Ejection"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 26,
+      "y": 0.96,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Rapid Ventricular Ejection"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 65.17,
+      "y": 14.96,
+      "width": 15,
+      "height": 10
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Isovolumetric contraction"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 79.67,
+      "y": 45.56,
+      "width": 15,
+      "height": 10
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "Mitral Valve Closes"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 58.75,
+      "y": 65.48,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "Atrial Systole"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 85,
+      "y": 78.3,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "id": "zone-6",
+      "acceptedTerms": [
+        "Rapid Ventricular Filling"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 37.17,
+      "y": 49.48,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "id": "zone-7",
+      "acceptedTerms": [],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 51,
+      "y": 47.04,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "id": "zone-8",
+      "acceptedTerms": [
+        "Aortic Valve Closes"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 37.42,
+      "y": 26.74,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "id": "zone-9",
+      "acceptedTerms": [
+        "Aortic Valve Opens"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 53.5,
+      "y": 32.67,
+      "width": 8,
+      "height": 8
+    },
+    {
+      "id": "zone-10",
+      "acceptedTerms": [
+        "Mitral Valve Opens"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 35.5,
+      "y": 69.7,
+      "width": 6,
+      "height": 6
+    },
+    {
+      "id": "zone-1756078744509",
+      "acceptedTerms": [
+        "Reduced Ventricular Filling"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 43.58336666666667,
+      "y": 75.92595555555557,
+      "width": 13,
+      "height": 9
+    }
+  ],
+  "savedAt": "2025-08-24T23:39:44.060Z",
+  "version": "2.0"
+}

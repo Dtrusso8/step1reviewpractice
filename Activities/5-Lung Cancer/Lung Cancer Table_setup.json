@@ -1,0 +1,121 @@
+{
+  "activityName": "Lung Cancer Table",
+  "dropZones": [
+    {
+      "id": "zone-1756313911014",
+      "acceptedTerms": [
+        "neuroendocrine-type chromatin",
+        "Aggressive",
+        "Paraneoplastic Syndrome- SIADH",
+        "myc"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 68.57319444444444,
+      "y": 70.99,
+      "width": 30,
+      "height": 25
+    },
+    {
+      "id": "zone-1756313911874",
+      "acceptedTerms": [
+        "Paraneoplastic Syndrome- PTHrP",
+        "Keratin Pearls"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 68.49,
+      "y": 41.98,
+      "width": 30,
+      "height": 25
+    },
+    {
+      "id": "zone-1756313912752",
+      "acceptedTerms": [
+        "Gland forming, mucin",
+        "Most Common Primary Lung Cancer",
+        "KRAS, EGFR, ALK"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 68.58,
+      "y": 13.43,
+      "width": 30,
+      "height": 25
+    },
+    {
+      "id": "zone-1756313913141",
+      "acceptedTerms": [
+        "Central"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 22.05,
+      "y": 72.06,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-1756313913924",
+      "acceptedTerms": [
+        "Central"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 22.57,
+      "y": 43.06,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-1756313914578",
+      "acceptedTerms": [
+        "Peripheral"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 21.87,
+      "y": 13.89,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-1756313914944",
+      "acceptedTerms": [
+        "Small Cell Carcinoma"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 2.17,
+      "y": 71.91,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-1756313915306",
+      "acceptedTerms": [
+        "Adenocarcinoma"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 2.25,
+      "y": 42.44,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-1756313915654",
+      "acceptedTerms": [
+        "Squamous Cell Carcinoma"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 1.91,
+      "y": 12.96,
+      "width": 15,
+      "height": 25
+    }
+  ],
+  "savedAt": "2025-09-24T15:29:21.942Z",
+  "version": "2.0"
+}

@@ -1,0 +1,1260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4B9CD3 0%, #13294B 100%);
+    min-height: 100vh;
+    padding: 20px 20px 20px 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #13294B 0%, #4B9CD3 100%);
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Activity Selection */
+.activity-selection {
+    padding: 40px;
+    text-align: center;
+}
+
+.activity-selection h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.name-input-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.name-input-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.name-input-section input {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    min-width: 250px;
+    text-align: center;
+}
+
+.name-input-section input:focus {
+    outline: none;
+    border-color: #4B9CD3;
+    box-shadow: 0 0 10px rgba(75, 156, 211, 0.3);
+}
+
+#activity-selector {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-right: 15px;
+    min-width: 250px;
+}
+
+.primary-button, .secondary-button, .danger-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.primary-button {
+    background: linear-gradient(135deg, #4B9CD3 0%, #13294B 100%);
+    color: white;
+    box-shadow: 0 5px 15px rgba(75, 156, 211, 0.3);
+}
+
+.primary-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(75, 156, 211, 0.4);
+}
+
+.primary-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.primary-button:disabled:hover {
+    transform: none;
+    box-shadow: 0 5px 15px rgba(75, 156, 211, 0.3);
+}
+
+/* Pulsing animation for Start Activity button */
+#start-activity-btn {
+    animation: gentlePulse 2s ease-in-out infinite;
+}
+
+@keyframes gentlePulse {
+    0% {
+        box-shadow: 0 5px 15px rgba(75, 156, 211, 0.3);
+        transform: scale(1);
+    }
+    50% {
+        box-shadow: 0 15px 45px rgba(76, 175, 80, 0.8);
+        transform: scale(1.04);
+    }
+    100% {
+        box-shadow: 0 5px 15px rgba(75, 156, 211, 0.3);
+        transform: scale(1);
+    }
+}
+
+/* Stop pulsing when button is disabled or activity is active */
+#start-activity-btn:disabled,
+#start-activity-btn[style*="display: none"] {
+    animation: none;
+}
+
+.secondary-button {
+    background: linear-gradient(135deg, #13294B 0%, #4B9CD3 100%);
+    color: white;
+    box-shadow: 0 5px 15px rgba(19, 41, 75, 0.3);
+}
+
+.secondary-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(19, 41, 75, 0.4);
+}
+
+.secondary-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.secondary-button:disabled:hover {
+    transform: none;
+    box-shadow: 0 5px 15px rgba(19, 41, 75, 0.3);
+}
+
+/* Make the header Instructions button stand out but not too much */
+#open-instructions-btn {
+    background: linear-gradient(135deg, #5a9fd4 0%, #3b7da8 100%);
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: 0 4px 12px rgba(75, 156, 211, 0.35);
+}
+
+#open-instructions-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(75, 156, 211, 0.5);
+    background: linear-gradient(135deg, #4B9CD3 0%, #13294B 100%);
+}
+
+.danger-button {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+    color: white;
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
+}
+
+.danger-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+}
+
+/* Teacher Mode */
+.teacher-mode {
+    padding: 20px;
+}
+
+.mode-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 15px;
+}
+
+.mode-header h2 {
+    color: #333;
+    margin: 0;
+}
+
+.mode-indicator {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.teacher-indicator {
+    background: #e3f2fd;
+    color: #13294B;
+    border: 2px solid #4B9CD3;
+}
+
+.student-indicator {
+    background: #e8f5e8;
+    color: #2e7d32;
+    border: 2px solid #4caf50;
+}
+
+.mode-controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.teacher-area {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.student-area {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Image container */
+.image-container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container.zoomed {
+    cursor: grab;
+}
+
+.image-container.zoomed:active {
+    cursor: grabbing;
+}
+
+/* Shared image container positioning */
+#shared-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+    overflow: hidden;
+    touch-action: none;
+}
+
+/* Enable zooming */
+.zoom-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.zoom-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #4B9CD3 0%, #13294B 100%);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.zoom-button:hover {
+    transform: scale(1.05);
+}
+
+/* Image styling is now handled by .image-container img */
+
+/* Drop zones */
+.drop-zone {
+    position: absolute;
+    border: 3px dashed #4B9CD3;
+    background: rgba(75, 156, 211, 0.25);
+    border-radius: 8px;
+    cursor: move;
+    transition: all 0.3s ease;
+    min-width: 60px;
+    min-height: 40px;
+}
+
+.drop-zone:hover {
+    background: rgba(75, 156, 211, 0.4);
+    border-color: #13294B;
+    border-width: 4px;
+}
+
+.drop-zone.selected {
+    border-color: #ff6b6b;
+    background: rgba(255, 107, 107, 0.2);
+    box-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+}
+
+.drop-zone.correct {
+    border-color: #4caf50;
+    background: rgba(76, 175, 80, 0.2);
+}
+
+.drop-zone.incorrect {
+    border-color: #f44336;
+    background: rgba(244, 67, 54, 0.2);
+    animation: shake 0.5s ease-in-out;
+}
+
+.drop-zone.highlight {
+    border-color: #ff9800;
+    background: rgba(255, 152, 0, 0.3);
+    transform: scale(1.05);
+}
+
+/* Placed labels container - default grid layout for multi-term zones */
+.placed-labels {
+    position: absolute;
+    inset: 1px;  /* Reduced from 6px to minimize space between zone edge and labels */
+    display: grid;
+    gap: 1px;    /* Reduced from 6px to minimize space between labels */
+    grid-template-rows: repeat(var(--rows, 1), 1fr);
+    align-content: stretch;
+    pointer-events: none;      /* keeps the zone droppable */
+    overflow: hidden;
+    width: calc(100% - 1px);   /* Account for inset */
+    height: calc(100% - 1px);  /* Account for inset */
+}
+
+/* Non-grid layout for single-term zones */
+.placed-labels:not(.grid-layout) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: unset;
+    gap: 0;
+}
+
+/* Ensure grid cells stretch to fill available space */
+.placed-labels > * {
+    min-height: 0;
+    min-width: 0;
+}
+
+/* Force grid to fill the container */
+.placed-labels {
+    grid-template-rows: repeat(var(--rows, 1), minmax(0, 1fr));
+}
+
+/* Each placed label fills its grid cell and is easy to read */
+.drop-zone .placed-label {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2px 0px 2px 0px;      /* Small vertical padding to prevent clipping */
+    border-radius: 2px;              /* Reduced from 8px for tighter fit */
+    border: 2px solid #13294B;       /* Darker border for better visibility */
+    background: #fff;                /* high contrast */
+    color: #13294B;
+    font-weight: 800;                /* Increased from 700 to 800 for better visibility */
+    line-height: 1.2;              /* Relaxed line height to prevent clipping */
+    pointer-events: auto;
+    min-height: 0;                   /* Allow grid to control height */
+    min-width: 0;                   /* Allow grid to control width */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow for better readability */
+}
+
+/* Single-term zone labels should fill the entire zone */
+.placed-labels:not(.grid-layout) .placed-label {
+    width: 100%;  /* Fill entire zone */
+    height: 100%; /* Fill entire zone */
+    min-height: unset;
+    min-width: unset;
+}
+
+/* The text area inside the label */
+.drop-zone .placed-label .label-text {
+    display: block;
+    width: 100%;
+    max-width: 95%;              /* Encourage wrapping by constraining width slightly */
+    overflow: hidden;
+    word-break: break-word;      /* Allow breaking long words if needed */
+    overflow-wrap: break-word;   /* Allow wrapping at word boundaries */
+    white-space: normal;         /* Allow wrapping */
+    text-align: center;
+    line-height: inherit;        /* Inherit the relaxed line height from parent */
+    font-size: 0.95em;          /* Slightly larger text for better readability */
+    letter-spacing: 0.02em;     /* Slight letter spacing for better clarity */
+    /* Font size will be controlled by JavaScript for proper grid cell fitting */
+}
+
+/* Overlay the ✕ so it doesn't push/squish the text */
+.remove-label-btn {
+    position: absolute;
+    top: 1px;                    /* Reduced to match no padding */
+    right: 1px;                  /* Reduced to match no padding */
+    width: 14px;                 /* Reduced for tighter fit */
+    height: 14px;                /* Reduced for tighter fit */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 9px;              /* Reduced for smaller button */
+    font-weight: 800;
+    display: grid;
+    place-items: center;
+    background: rgba(19,41,75,0.12);
+    color: #13294B;
+    transition: background-color 0.2s;
+}
+
+.remove-label-btn:hover { 
+    background: rgba(19,41,75,0.25); 
+}
+
+/* Keep anything inside a zone centered and contained */
+.drop-zone {
+    overflow: hidden;              /* no spillover */
+    padding: 2px;                  /* tiny breathing room */
+}
+
+/* Center content only when zone is empty (no placed labels) */
+.drop-zone:empty::before {
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgba(75, 156, 211, 0.5);
+    font-style: italic;
+}
+
+/* Remove duplicate span rules - they're defined above with proper grid support */
+
+.terms-container {
+    flex: 0 0 250px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+    order: 1;
+}
+
+.teacher-instructions {
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border-left: 4px solid #4B9CD3;
+    flex: 0 0 100%;
+    order: 2;
+}
+
+.teacher-instructions p {
+    margin: 0 0 10px 0;
+    color: #13294B;
+    font-weight: bold;
+}
+
+.teacher-instructions ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #424242;
+}
+
+.teacher-instructions li {
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.student-instructions {
+    background: #e8f5e8;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #4caf50;
+}
+
+.student-instructions p {
+    margin: 0;
+    color: #2e7d32;
+    font-weight: bold;
+    text-align: center;
+}
+
+.terms-container h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.term-item {
+    padding: 10px;
+    margin: 5px 0;
+    background: white;
+    border-radius: 8px;
+    border-left: 4px solid #4B9CD3;
+    font-weight: bold;
+    color: #333;
+}
+
+.term-item.assigned {
+    background: #e8f5e8;
+    border-left-color: #4caf50;
+    opacity: 0.8;
+    position: relative;
+}
+
+.term-item.assigned::after {
+    content: "✓";
+    position: absolute;
+    right: 10px;
+    color: #4caf50;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Zone Configuration */
+.zone-config {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.zone-config h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.config-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    align-items: end;
+}
+
+.config-form label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.config-form input, .config-form select {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.config-form input:focus, .config-form select:focus {
+    outline: none;
+    border-color: #4B9CD3;
+}
+
+.config-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Decoy zone section */
+.decoy-section {
+    grid-column: 1 / -1;
+    margin-bottom: 15px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: normal;
+    color: #555;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 8px;
+    width: auto;
+}
+
+.checkbox-label .checkmark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+    position: relative;
+    background: white;
+}
+
+.checkbox-label input[type="checkbox"]:checked + .checkmark::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4B9CD3;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Zone configuration fields */
+.zone-config-fields {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    align-items: end;
+    padding: 15px;
+    background: #f1f3f4;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.zone-config-fields.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Terms multiselect */
+.terms-multiselect {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+}
+
+.term-checkbox {
+    display: grid;
+    grid-template-columns: auto 1fr; /* checkbox | label */
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.term-checkbox:hover {
+    background-color: #f8f9fa;
+}
+
+.term-checkbox input[type="checkbox"] {
+    margin: 0;      /* keep it snug */
+    width: auto;
+}
+
+.term-checkbox label {
+    font-weight: normal;
+    color: #333;
+    cursor: pointer;
+    line-height: 1.2;
+}
+
+/* Max labels input */
+.max-labels-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.max-labels-input input[type="number"] {
+    flex: 1;
+}
+
+.max-labels-input .checkbox-label {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+/* Resize All Zones Section */
+.resize-all-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #e9ecef;
+    text-align: center;
+}
+
+.resize-all-section .secondary-button {
+    background: #6c757d;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 24px;
+    margin-bottom: 10px;
+}
+
+.resize-all-section .secondary-button:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+.resize-hint {
+    font-size: 0.9rem;
+    color: #6c757d;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Student Mode */
+.student-mode {
+    padding: 20px;
+}
+
+.student-activity-title {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #e9ecef;
+    text-align: center;
+}
+
+.student-activity-title h2 {
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.student-controls-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #e9ecef;
+    text-align: center;
+}
+
+.student-info-container {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student-info {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #e9ecef;
+}
+
+.student-name-display, .timer-display {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.timer-display {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: #13294B;
+}
+
+.submit-section {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #e9ecef;
+    margin-top: 20px;
+}
+
+.submit-section .primary-button {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    min-width: 200px;
+}
+
+/* Permanent submission note below the button */
+.submission-status {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #1565c0; /* matches 'complete' tone */
+    font-weight: 600;
+    text-align: center;
+}
+
+.labels-container {
+    position: fixed;
+    top: 100px; /* Adjust vertically as needed */
+    right: 10px; /* Dock to the right side */
+    z-index: 2000; /* Always on top */
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    padding: 8px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 250px; /* Fixed width for consistency */
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.draggable-label {
+    background: linear-gradient(135deg, #4B9CD3 0%, #13294B 100%);
+    color: white;
+    padding: 8px 13px;
+    border-radius: 10px;
+    cursor: grab;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem; /* Default size, can be overridden by JavaScript */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    user-select: none;
+    margin-bottom: 10px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Allow JavaScript to override font size for longer terms */
+.draggable-label span {
+    font-size: inherit; /* Inherit from parent, allowing JS to override */
+}
+
+.draggable-label:not([draggable="true"]) {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: linear-gradient(135deg, #999 0%, #666 100%);
+}
+
+.draggable-label[draggable="true"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.draggable-label:active {
+    cursor: grabbing;
+    transform: scale(0.95);
+}
+
+.draggable-label.dragging {
+    opacity: 0.5;
+    transform: rotate(5deg);
+}
+
+.draggable-label.placed {
+    opacity: 0.3;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.draggable-label.placed:hover {
+    transform: none;
+}
+
+/* Small circular badge showing remaining count on multi-use tiles */
+.count-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    min-width: 22px;
+    height: 22px;
+    padding: 0 6px;
+    border-radius: 9999px;
+    background: #1565c0;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.draggable-label { 
+    position: relative; 
+}
+
+.progress-section {
+    padding: 20px 30px;
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4caf50, #8bc34a);
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+#progress-text {
+    text-align: center;
+    font-weight: bold;
+    color: #495057;
+}
+
+.reset-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.reset-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.reset-button:active {
+    transform: scale(0.95);
+}
+
+.feedback {
+    padding: 20px 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback.success {
+    background: rgba(76, 175, 80, 0.1);
+    color: #2e7d32;
+}
+
+.feedback.error {
+    background: rgba(244, 67, 54, 0.1);
+    color: #c62828;
+}
+
+.feedback.complete {
+    background: rgba(33, 150, 243, 0.1);
+    color: #1565c0;
+    font-size: 1.5rem;
+}
+
+.feedback.info {
+    background: rgba(255, 193, 7, 0.1);
+    color: #f57c00;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+@keyframes correctPlacement {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.correct-placement {
+    animation: correctPlacement 0.5s ease-in-out;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .setup-area, .activity-area {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .setup-header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .setup-controls {
+        justify-content: center;
+    }
+    
+    .config-form {
+        grid-template-columns: 1fr;
+    }
+    
+    .labels-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 0 0 auto;
+    }
+    
+    .draggable-label {
+        flex: 0 0 auto;
+        min-width: 120px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .container {
+        margin: 10px;
+        border-radius: 15px;
+    }
+}
+
+/* Enhanced mobile responsiveness */
+@media (max-width: 600px) {
+    .image-container {
+        min-width: 100%;
+    }
+
+    .draggable-label {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    .zoom-controls {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .zoom-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Password Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000; /* Above labels panel */
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Instructions modal (near full-screen) */
+.instructions-modal-content {
+    position: relative;
+    background: #fff;
+    width: 92vw;
+    height: 90vh;
+    max-width: 1400px;
+    border-radius: 16px;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.35);
+    padding: 20px 24px 24px 24px;
+    overflow: hidden;
+}
+
+#instructions-body {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    right: 24px;
+    bottom: 24px;
+    overflow: auto;
+}
+
+.instructions-close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(0,0,0,0.05);
+    color: #111;
+    font-size: 22px;
+    font-weight: 800;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.instructions-close:hover {
+    background: rgba(0,0,0,0.12);
+}
+
+/* Media display inside instructions */
+.instructions-content {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+}
+
+.instructions-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-content h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.5em;
+}
+
+.modal-content input:focus {
+    outline: none;
+    border-color: #4B9CD3;
+    box-shadow: 0 0 10px rgba(75, 156, 211, 0.3);
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.modal-buttons button {
+    min-width: 100px;
+}
+
+/* Setup zones (teacher mode) */
+.drop-zone.setup-zone {
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.drop-zone.setup-zone:hover {
+    background: rgba(75, 156, 211, 0.4);
+    transform: scale(1.05);
+}
+
+.drop-zone.setup-zone:active {
+    cursor: grabbing;
+    background: rgba(75, 156, 211, 0.4);
+    transform: scale(1.1);
+}
+
+/* Resize handle for teacher mode drop zones */
+.drop-zone.setup-zone .resize-handle {
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    width: 12px;
+    height: 12px;
+    background: #4B9CD3;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: nw-resize;
+    z-index: 1001;
+    opacity: 0;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.drop-zone.setup-zone:hover .resize-handle {
+    opacity: 1;
+}
+
+.drop-zone.setup-zone .resize-handle:hover {
+    background: #13294B;
+    transform: scale(1.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.drop-zone.setup-zone .resize-handle:active {
+    background: #ff6b6b;
+    cursor: nw-resize;
+    transform: scale(1.1);
+}
+
+/* Show resize handle when zone is selected */
+.drop-zone.setup-zone.selected .resize-handle {
+    opacity: 1;
+}
+
+/* Student mode zones */
+.drop-zone:not(.setup-zone) {
+    cursor: default;
+}

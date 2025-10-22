@@ -1,0 +1,79 @@
+{
+  "activityName": "FlowVolume Loops; Restrictive Obstructive Lung Disease",
+  "dropZones": [
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Exhalation begins"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 21.37,
+      "y": 45.53,
+      "width": 12.22,
+      "height": 9.55
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Peak Expiratory Flow"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 46.32,
+      "y": 16.51,
+      "width": 15,
+      "height": 10
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "RV"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 54.39,
+      "y": 74.56,
+      "width": 5,
+      "height": 7.2
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "VC"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 82.78,
+      "width": 16.04,
+      "height": 6
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "TLC"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 37.5,
+      "y": 90.37,
+      "width": 21.68,
+      "height": 6
+    },
+    {
+      "id": "zone-1757075863339",
+      "acceptedTerms": [
+        "Inhalation begins"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 58.32,
+      "y": 66.32,
+      "width": 19.95,
+      "height": 5
+    }
+  ],
+  "savedAt": "2025-09-24T15:38:57.310Z",
+  "version": "2.0"
+}

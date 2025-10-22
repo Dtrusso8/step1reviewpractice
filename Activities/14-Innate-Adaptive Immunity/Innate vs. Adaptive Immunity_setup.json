@@ -1,0 +1,161 @@
+{
+  "activityName": "Innate vs. Adaptive Immunity",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Neutrophils",
+        "Macrophages",
+        "Monocytes",
+        "Dendritic Cells",
+        "Natural Killer Cells"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 26.25,
+      "y": 13.83,
+      "width": 33.4,
+      "height": 18.02
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "T-cells",
+        "B-cells"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 64.43,
+      "y": 14.1,
+      "width": 31.67,
+      "height": 17.56
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Toll-Like Receptors recognize pathogen associated molecular patterns (PAMPS)"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 26.25,
+      "y": 35.37,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Germline"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 26.28,
+      "y": 47.84,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "Primary: Seconds to hours"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 26.25,
+      "y": 60.46,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "No specificity/memory"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 26.25,
+      "y": 72.78,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-6",
+      "acceptedTerms": [
+        "Lysozyme",
+        "Complement",
+        "Cytokines"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 26.25,
+      "y": 87.1,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-16",
+      "acceptedTerms": [
+        "Immunoglobulins",
+        "Cytokines"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 64.51,
+      "y": 87.22,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-17",
+      "acceptedTerms": [
+        "Specificity/memory that improves with exposure"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 64.43,
+      "y": 72.87,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-18",
+      "acceptedTerms": [
+        "Primary: weeks",
+        "Secondary: Seconds to hours"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 64.43000000000002,
+      "y": 59.599999999999994,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-19",
+      "acceptedTerms": [
+        "Produced by gene rearrangement, recombination, hypermutation"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 64.43,
+      "y": 46.94,
+      "width": 33.14,
+      "height": 10.46
+    },
+    {
+      "id": "zone-20",
+      "acceptedTerms": [
+        "T- cell receptors",
+        "B-cell receptors"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 64.43,
+      "y": 35.52,
+      "width": 33.14,
+      "height": 10.46
+    }
+  ],
+  "savedAt": "2025-10-01T16:24:10.529Z",
+  "version": "2.0"
+}

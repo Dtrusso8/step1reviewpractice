@@ -1,0 +1,22 @@
+[fixed-top]
+Neutrophils
+T-cells
+Macrophages
+Monocytes
+Dendritic Cells
+B-cells
+Natural Killer Cells
+T- cell receptors
+Toll-Like Receptors recognize pathogen associated molecular patterns (PAMPS)
+B-cell receptors
+Produced by gene rearrangement, recombination, hypermutation
+Germline
+Primary: weeks
+Primary: Seconds to hours
+Secondary: Seconds to hours
+Specificity/memory that improves with exposure
+No specificity/memory
+Lysozyme
+Immunoglobulins
+Complement
+Cytokines

@@ -1,0 +1,19 @@
+[fixed-top]
+Squamous Cell Carcinoma
+Adenocarcinoma
+Small Cell Carcinoma
+
+[random]
+Central
+Peripheral
+
+[random]
+Paraneoplastic Syndrome- PTHrP
+neuroendocrine-type chromatin
+Aggressive
+Paraneoplastic Syndrome- SIADH
+Gland forming, mucin
+Most Common Primary Lung Cancer
+KRAS, EGFR, ALK
+myc
+Keratin Pearls

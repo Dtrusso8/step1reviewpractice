@@ -1,0 +1,27 @@
+[fixed-top]
+Norepinephrine/Epinephrine
+Acetylcholine
+
+[random]
+↑ (opens bronchioles)
+↑ (dilates puils)
+↓ (constricts bladder sphincter)
+↓ (motility)
+↓ (constricts bronchioles)
+↓ (constricts pupils)
+↑ (relaxes bladder sphincter)
+↑ (motility)
+↓ vasoconstriction/BP
+↓ heart rate
+↑ heart rate
+↑ vasoconstriction/BP
+↑
+↓
+
+[random]
+α1, ꞵ2
+ꞵ1
+ꞵ2
+α1
+M2
+M3

@@ -1,0 +1,247 @@
+{
+  "activityName": "shock classification site",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 17.74471127620893,
+      "y": 6.542397907575642,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 17.74471127620893,
+      "y": 25.009520418484872,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703796977",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 17.657904938795284,
+      "y": 82.94952041848487,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703797319",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 17.571098601381635,
+      "y": 64.8614387445454,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703797671",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 17.657904938795284,
+      "y": 44.78143874454538,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703938065",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 64.79120074294018,
+      "y": 46.01,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703939932",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 64.79120074294018,
+      "y": 83.33,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703940100",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 64.79120074294018,
+      "y": 66.2,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703940290",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 64.79120074294018,
+      "y": 25.27,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703940730",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 64.79120074294018,
+      "y": 6.50287748909077,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703943808",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 49.50010214155854,
+      "y": 83.7,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703943967",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 49.50010214155854,
+      "y": 65.44,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703944215",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 49.50010214155854,
+      "y": 45.35,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703944438",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 49.50010214155854,
+      "y": 6.6319183260605135,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703944676",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 33.25942255241786,
+      "y": 6.641438744545386,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703945058",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 33.25942255241786,
+      "y": 83.43,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703945243",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 33.25942255241786,
+      "y": 65.6,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703945483",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 33.25942255241786,
+      "y": 45.45,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703945684",
+      "acceptedTerms": [
+        "↑"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 33.25942255241786,
+      "y": 24.33,
+      "width": 9.434711276208928,
+      "height": 15.21
+    },
+    {
+      "id": "zone-1755703945928",
+      "acceptedTerms": [
+        "↓"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 49.50010214155854,
+      "y": 25.17,
+      "width": 9.434711276208928,
+      "height": 15.21
+    }
+  ],
+  "savedAt": "2025-09-24T19:17:41.849Z",
+  "version": "2.0"
+}
