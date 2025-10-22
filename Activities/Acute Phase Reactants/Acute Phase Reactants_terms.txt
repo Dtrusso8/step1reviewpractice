@@ -1,0 +1,8 @@
+C-reactive protein
+Ferritin
+Fibrinogen
+Haptoglobin
+Hepcidin
+Albumin
+Transferrin
+Transthyretin

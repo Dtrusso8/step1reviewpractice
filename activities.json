@@ -3,11 +3,10 @@
   "activities": [
     {
       "name": "Acute Phase Reactants",
-      "displayName": "0-Acute Phase Reactants",
-      "image": "Activities/0-Acute Phase Reactants/Acute Phase Reactants.png",
-      "termsFile": "Activities/0-Acute Phase Reactants/Acute Phase Reactants_terms.txt",
-      "setupFile": "Activities/0-Acute Phase Reactants/Acute Phase Reactants_setup.json"
+      "displayName": "Acute Phase Reactants",
+      "image": "Activities/Acute Phase Reactants/Acute Phase Reactants.png",
+      "termsFile": "Activities/Acute Phase Reactants/Acute Phase Reactants_terms.txt",
+      "setupFile": "Activities/Acute Phase Reactants/Acute Phase Reactants_setup.json"
     }
-      ]
-
+  ]
 }

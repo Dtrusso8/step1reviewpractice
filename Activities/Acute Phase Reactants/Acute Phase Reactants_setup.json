@@ -1,0 +1,37 @@
+{
+  "activityName": "Acute Phase Reactants",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "C-reactive protein",
+        "Ferritin",
+        "Fibrinogen",
+        "Haptoglobin",
+        "Hepcidin"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 5.42,
+      "y": 31.05,
+      "width": 37.92,
+      "height": 50
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "Albumin",
+        "Transferrin",
+        "Transthyretin"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 56.84,
+      "y": 31.05,
+      "width": 37.92,
+      "height": 50
+    }
+  ],
+  "savedAt": "2025-10-01T16:27:17.489Z",
+  "version": "2.0"
+}
