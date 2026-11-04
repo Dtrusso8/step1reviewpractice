@@ -1,0 +1,11 @@
+Isovolumetric Ventricular Relaxation
+Rapid Ventricular Filling
+Reduced Ventricular Filling
+Rapid Ventricular Ejection
+Aortic Valve Opens
+Mitral Valve Closes
+Mitral Valve Opens
+Isovolumetric contraction
+Reduced Ventricular Ejection
+Aortic Valve Closes
+Atrial Systole

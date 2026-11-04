@@ -1,5 +1,5 @@
 {
-  "activityName": "HIV Drugs",
+  "activityName": "15-HIV Pharmacology",
   "dropZones": [
     {
       "id": "zone-0",
@@ -8,8 +8,7 @@
       ],
       "minRequired": 1,
       "maxAllowed": 1,
-      "decoy": false,
-      "x": 4.921780393689399,
+      "x": 4.92,
       "y": 2.62,
       "width": 15,
       "height": 5
@@ -21,9 +20,8 @@
       ],
       "minRequired": 1,
       "maxAllowed": 1,
-      "decoy": false,
-      "x": 4.872272944854558,
-      "y": 19.16338669669604,
+      "x": 4.87,
+      "y": 19.16,
       "width": 13,
       "height": 8
     },
@@ -37,7 +35,6 @@
       ],
       "minRequired": 1,
       "maxAllowed": null,
-      "decoy": false,
       "x": 49.3,
       "y": 28.12,
       "width": 18,
@@ -50,9 +47,8 @@
       ],
       "minRequired": 1,
       "maxAllowed": 1,
-      "decoy": false,
-      "x": 4.870985102330317,
-      "y": 40.49677339339208,
+      "x": 4.87,
+      "y": 40.5,
       "width": 15,
       "height": 5
     },
@@ -60,13 +56,11 @@
       "id": "zone-4",
       "acceptedTerms": [
         "Raltegravir",
-        "Elvitegravir",
-        "Ritonavir"
+        "Elvitegravir"
       ],
       "minRequired": 1,
       "maxAllowed": null,
-      "decoy": false,
-      "x": 4.182272944854558,
+      "x": 4.18,
       "y": 47.86,
       "width": 15,
       "height": 15
@@ -78,22 +72,21 @@
       ],
       "minRequired": 1,
       "maxAllowed": null,
-      "decoy": false,
-      "x": 4.199697259806077,
-      "y": 65.38338669669604,
+      "x": 4.2,
+      "y": 65.38,
       "width": 15,
       "height": 5
     },
     {
       "id": "zone-6",
       "acceptedTerms": [
+        "Ritonavir",
         "Idinavir"
       ],
       "minRequired": 1,
       "maxAllowed": null,
-      "decoy": false,
-      "x": 5.370985102330317,
-      "y": 74.92661330330397,
+      "x": 5.37,
+      "y": 74.93,
       "width": 13,
       "height": 19
     },
@@ -104,7 +97,6 @@
       ],
       "minRequired": 1,
       "maxAllowed": 1,
-      "decoy": false,
       "x": 49.64,
       "y": 12.12,
       "width": 18,
@@ -117,13 +109,12 @@
       ],
       "minRequired": 1,
       "maxAllowed": null,
-      "decoy": false,
       "x": 48.84,
       "y": 50.68,
       "width": 19,
       "height": 9
     }
   ],
-  "savedAt": "2025-09-08T13:49:59.429Z",
+  "savedAt": "2025-10-29T15:20:42.625Z",
   "version": "2.0"
 }

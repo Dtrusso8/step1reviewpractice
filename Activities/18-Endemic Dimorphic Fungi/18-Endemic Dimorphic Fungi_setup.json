@@ -1,0 +1,66 @@
+{
+  "activityName": "18-Endemic Dimorphic Fungi",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Occasional unequal budding",
+        "Histoplasma capsulatum",
+        "Mississippi and Ohio river valleys",
+        "Bird droppings"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 21.25,
+      "y": 0.59,
+      "width": 50,
+      "height": 21.7
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Spheres with endospores",
+        "Coccidioides immitis",
+        "Southwestern US, San Joaquin Valley"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 21.25,
+      "y": 26.89,
+      "width": 50,
+      "height": 21.7
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Yeasts with wide capsular halo",
+        "Narrow based unequal budding",
+        "Cryptococcus neoformans",
+        "Pigeon droppings"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 21.25,
+      "y": 53.33,
+      "width": 50,
+      "height": 21.7
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Broad based budding",
+        "Double contoured yeasts",
+        "Blastomyces dermatitidis",
+        "Mississippi, Ohio and Missouri river basins"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 21.333333333333336,
+      "y": 77.56,
+      "width": 50,
+      "height": 21.7
+    }
+  ],
+  "savedAt": "2026-10-05T16:16:39.983Z",
+  "version": "2.0"
+}

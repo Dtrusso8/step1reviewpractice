@@ -1,0 +1,98 @@
+{
+  "activityName": "Hepatitis B serologies",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "HBsAg"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 16.33131470579855,
+      "y": 48.294403281414034,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "HBeAg"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 12.512299999999998,
+      "y": 64.52000328141403,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Window period"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 48.13191348031533,
+      "y": 51.847064479057316,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Anti-Hbc IgM"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 65.60805551467446,
+      "y": 44.75,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "Anti-Hbc IgG"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 77.3667591911241,
+      "y": 24.039999999999996,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "Anti-HBs IgG"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 76.02870367644964,
+      "y": 59.41587104188537,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "id": "zone-6",
+      "acceptedTerms": [
+        "Anti-HBe IgG"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "decoy": false,
+      "x": 76.1903085783825,
+      "y": 70.67412895811462,
+      "width": 12,
+      "height": 10
+    }
+  ],
+  "savedAt": "2025-08-27T15:54:14.607Z",
+  "version": "2.0"
+}

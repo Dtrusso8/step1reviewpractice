@@ -1,0 +1,163 @@
+{
+  "activityName": "Pleural Effusions and Light Criteria",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Transudative"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 2.7498241980070186,
+      "y": 46.49277160849903,
+      "width": 18.75003891031584,
+      "height": 6.54442587251454
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "<0.5"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 32.416534198007014,
+      "y": 19.5181,
+      "width": 10.833290099649064,
+      "height": 8.617770349005816
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        ">0.5"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 32.833155210554146,
+      "y": 28.711791183547497,
+      "width": 10.833290099649064,
+      "height": 8.617770349005816
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Exudative"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 50.583183744785764,
+      "y": 47.0051690895126,
+      "width": 19.333378296364973,
+      "height": 6.54442587251454
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "<0.6"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 57.666434934118996,
+      "y": 19.800154316919144,
+      "width": 10.833290099649064,
+      "height": 8.617770349005816
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        ">0.6"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 57.74971725170488,
+      "y": 28.302738861675447,
+      "width": 10.833290099649064,
+      "height": 8.617770349005816
+    },
+    {
+      "id": "zone-6",
+      "acceptedTerms": [
+        "<200 U/L"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 82.83331085181752,
+      "y": 19.757824377503475,
+      "width": 10.833290099649064,
+      "height": 8.617770349005816
+    },
+    {
+      "id": "zone-11",
+      "acceptedTerms": [
+        "Chylothorax"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 51.66633160398596,
+      "y": 86.65961419575048,
+      "width": 22.416743622624665,
+      "height": 6.429240068265025
+    },
+    {
+      "id": "zone-12",
+      "acceptedTerms": [
+        ">200 U/L"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 82.83335542590876,
+      "y": 28.49074166908337,
+      "width": 10.833290099649064,
+      "height": 8.617770349005816
+    },
+    {
+      "id": "zone-1791215045432",
+      "acceptedTerms": [
+        "Heart Failure"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 0.9994915718729992,
+      "y": 53.34038832323594,
+      "width": 45.58365066857587,
+      "height": 5.392567830019386
+    },
+    {
+      "id": "zone-1791215073658",
+      "acceptedTerms": [
+        "Nephrotic Syndrome"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 0.9994915718729992,
+      "y": 65.6653,
+      "width": 45.58365066857587,
+      "height": 5.392567830019386
+    },
+    {
+      "id": "zone-1791215074101",
+      "acceptedTerms": [
+        "Cirrhosis"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 0.9994915718729992,
+      "y": 59.445199999999986,
+      "width": 45.58365066857587,
+      "height": 5.7
+    },
+    {
+      "id": "zone-1791215078747",
+      "acceptedTerms": [
+        "Malignancy"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 52.16663679202808,
+      "y": 59.445199999999986,
+      "width": 45.58365066857587,
+      "height": 5.7
+    }
+  ],
+  "savedAt": "2026-10-05T15:48:10.866Z",
+  "version": "2.0"
+}

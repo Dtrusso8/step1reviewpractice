@@ -1,5 +1,5 @@
 {
-  "passwordsEnabled": true,
+  "passwordsEnabled": false,
   "activities": [
     {
       "name": "Acute Phase Reactants",
@@ -7,6 +7,13 @@
       "image": "Activities/Acute Phase Reactants/Acute Phase Reactants.png",
       "termsFile": "Activities/Acute Phase Reactants/Acute Phase Reactants_terms.txt",
       "setupFile": "Activities/Acute Phase Reactants/Acute Phase Reactants_setup.json"
+    },
+    {
+      "name": "Normal ECG and Conduction",
+      "displayName": "Normal Ecg And Conduction",
+      "image": "Activities/Normal ECG and Conduction/Screenshot 2026-11-04 102938.png",
+      "termsFile": "Activities/Normal ECG and Conduction/conduction_terms.txt",
+      "setupFile": null
     }
   ]
 }

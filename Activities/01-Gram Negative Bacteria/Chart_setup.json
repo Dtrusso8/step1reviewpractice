@@ -1,0 +1,132 @@
+{
+  "activityName": "negative-gram bacteria",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Neisseria gonorrhea",
+        "Moraxella"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 9.426805555555557,
+      "y": 34.27432098765431,
+      "width": 10,
+      "height": 16
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Neisseria meningitidis"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 20.93402777777778,
+      "y": 34.09,
+      "width": 9.04513888888889,
+      "height": 15.098765432098766
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Bordatella pertussis",
+        "Haemophilus influenza"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 29.51,
+      "y": 15,
+      "width": 12,
+      "height": 10
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "Campylobacter jejuni"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 47.1763888888889,
+      "y": 34.95407407407408,
+      "width": 10.520833333333334,
+      "height": 11.38888888888889
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "Vibrio cholera"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 59.565994444444435,
+      "y": 35.0741,
+      "width": 10.60763888888889,
+      "height": 12.006172839506172
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "Heliobacter pylori"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 71.416,
+      "y": 34.969779012345676,
+      "width": 10.95486111111111,
+      "height": 11.851851851851851
+    },
+    {
+      "id": "zone-6",
+      "acceptedTerms": [
+        "Pseudomonas"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 33.03,
+      "y": 73.25432098765431,
+      "width": 12.086805555555555,
+      "height": 10.395061728395062
+    },
+    {
+      "id": "zone-7",
+      "acceptedTerms": [
+        "Salmonella"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 29.5881,
+      "y": 84.94137901234568,
+      "width": 13.555555555555555,
+      "height": 6.851851851851851
+    },
+    {
+      "id": "zone-8",
+      "acceptedTerms": [
+        "Shigella",
+        "Yersinia"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 16.755833333333335,
+      "y": 84.05518518518518,
+      "width": 12,
+      "height": 12
+    },
+    {
+      "id": "zone-9",
+      "acceptedTerms": [
+        "E. coli",
+        "Klebsiella",
+        "Enterobacter"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 45.8544,
+      "y": 70.12707901234569,
+      "width": 10.260416666666666,
+      "height": 15.709876543209877
+    }
+  ],
+  "savedAt": "2025-09-24T18:51:57.848Z",
+  "version": "2.0"
+}

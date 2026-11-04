@@ -1,0 +1,163 @@
+{
+  "activityName": "04-Acute Coronary Syndromes",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "On exertion"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 26,
+      "y": 20.3,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Mild exertion or at rest"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 42.58,
+      "y": 20.07,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "At rest"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 59.17,
+      "y": 20.3,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "No elevation"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 26,
+      "y": 34.74,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-4",
+      "acceptedTerms": [
+        "No elevation"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 42.58,
+      "y": 34.67,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-5",
+      "acceptedTerms": [
+        "Elevated"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 59.17,
+      "y": 34.44,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-6",
+      "acceptedTerms": [
+        "Elevated"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 75.67,
+      "y": 34.37,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-7",
+      "acceptedTerms": [
+        "Possible ST Depression and/or T wave inversion"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 25.92,
+      "y": 63.93,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-8",
+      "acceptedTerms": [
+        "Transmural"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 75.67,
+      "y": 48.81,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-9",
+      "acceptedTerms": [
+        "Subendocardial"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 59.17,
+      "y": 48.52,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-10",
+      "acceptedTerms": [
+        "None"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 42.58,
+      "y": 48.67,
+      "width": 14.92,
+      "height": 11.93
+    },
+    {
+      "id": "zone-1758906771654",
+      "acceptedTerms": [
+        "Possible ST Depression and/or T wave inversion"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 59.42,
+      "y": 63.93,
+      "width": 15,
+      "height": 25
+    },
+    {
+      "id": "zone-1758906771840",
+      "acceptedTerms": [
+        "ST Elevation"
+      ],
+      "minRequired": 1,
+      "maxAllowed": 1,
+      "x": 75.83,
+      "y": 63.93,
+      "width": 15,
+      "height": 25
+    }
+  ],
+  "savedAt": "2026-05-21T16:48:30.610Z",
+  "version": "2.0"
+}

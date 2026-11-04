@@ -1,0 +1,15 @@
+Neisseria gonorrhea
+Moraxella
+Bordatella pertussis
+Haemophilus influenza
+Neisseria meningitidis
+Campylobacter jejuni
+Vibrio cholera
+Heliobacter pylori
+Pseudomonas
+Shigella
+Yersinia
+Salmonella
+E. coli
+Klebsiella
+Enterobacter

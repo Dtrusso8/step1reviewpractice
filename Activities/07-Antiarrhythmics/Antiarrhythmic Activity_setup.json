@@ -1,0 +1,60 @@
+{
+  "activityName": "Antiarrhythmic Activity",
+  "dropZones": [
+    {
+      "id": "zone-0",
+      "acceptedTerms": [
+        "Beta blockers",
+        "Atenolol"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 12.01,
+      "y": 14.78,
+      "width": 15,
+      "height": 10
+    },
+    {
+      "id": "zone-1",
+      "acceptedTerms": [
+        "Na+ channel blockers",
+        "Procainamide",
+        "Lidocaine"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 1.23,
+      "y": 77.55,
+      "width": 19,
+      "height": 14
+    },
+    {
+      "id": "zone-2",
+      "acceptedTerms": [
+        "Ca2+ channel blockers",
+        "Diltiazem"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 24.57,
+      "y": 3.47,
+      "width": 15,
+      "height": 10
+    },
+    {
+      "id": "zone-3",
+      "acceptedTerms": [
+        "K+ channel blockers",
+        "Amiodarone"
+      ],
+      "minRequired": 1,
+      "maxAllowed": null,
+      "x": 39.91,
+      "y": 73.89,
+      "width": 19,
+      "height": 15
+    }
+  ],
+  "savedAt": "2025-09-24T18:16:52.695Z",
+  "version": "2.0"
+}

@@ -1,0 +1,21 @@
+[random]
+Spheres with endospores
+Broad based budding
+Double contoured yeasts
+Yeasts with wide capsular halo
+Occasional unequal budding
+Narrow based unequal budding
+
+[random]
+Histoplasma capsulatum
+Coccidioides immitis
+Blastomyces dermatitidis
+Cryptococcus neoformans
+
+[random]
+Pigeon droppings
+Mississippi and Ohio river valleys
+Bird droppings
+Southwestern US, San Joaquin Valley 
+Mississippi, Ohio and Missouri river basins
+

@@ -1,0 +1,18 @@
+[random]
+<0.5
+>0.5
+<0.6
+>0.6
+<200 U/L
+>200 U/L
+
+[random]
+Transudative
+Exudative
+
+[random]
+Heart Failure
+Cirrhosis
+Nephrotic Syndrome
+Malignancy
+Chylothorax

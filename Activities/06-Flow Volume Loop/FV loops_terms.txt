@@ -1,0 +1,6 @@
+Exhalation begins
+Peak Expiratory Flow
+Inhalation begins
+RV
+VC
+TLC

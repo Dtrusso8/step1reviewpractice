@@ -1,0 +1,15 @@
+Sulfamethoxazole
+Trimethoprim
+Ciprofloxacin
+Clindamycin
+Linezolid
+Azithromycin
+Tobramycin
+Doxycycline
+Penecillin G
+Piperacillin
+Ceftriaxone
+Imipenem
+Aztreonam
+Vancomycin
+Bacitracin
