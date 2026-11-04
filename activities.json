@@ -1,158 +1,6 @@
 {
-  "passwordsEnabled": true,
+  "passwordsEnabled": false,
   "activities": [
-    {
-      "name": "01-Gram Negative Bacteria",
-      "displayName": "01-Gram Negative Bacteria",
-      "image": "Activities/01-Gram Negative Bacteria/Chart.png",
-      "termsFile": "Activities/01-Gram Negative Bacteria/chart_terms.txt",
-      "setupFile": "Activities/01-Gram Negative Bacteria/Chart_setup.json",
-      "password": "pickle"
-    },
-    {
-      "name": "02-Hepatitis B Serologies",
-      "displayName": "02-Hepatitis B Serologies",
-      "image": "Activities/02-Hepatitis B Serologies/hepb.png",
-      "termsFile": "Activities/02-Hepatitis B Serologies/hepb_terms.txt",
-      "setupFile": "Activities/02-Hepatitis B Serologies/Hepatitis B serologies_setup.json",
-      "password": "pirate"
-    },
-    {
-      "name": "03-Autonomic Nervous System",
-      "displayName": "03-Autonomic Nervous System",
-      "image": "Activities/03-Autonomic Nervous System/Adrenergic Nervous System Table.png",
-      "termsFile": "Activities/03-Autonomic Nervous System/Adrenergic Nervous System Table_terms.txt",
-      "setupFile": "Activities/03-Autonomic Nervous System/Adrenergic Nervous System Table_setup.json",
-      "password": "yoyo"
-    },
-    {
-      "name": "04-Chest Pain Presentations",
-      "displayName": "04-Chest Pain Presentations",
-      "image": "Activities/04-Chest Pain Presentations/Angina Table.png",
-      "termsFile": "Activities/04-Chest Pain Presentations/Angina Table_terms.txt",
-      "setupFile": "Activities/04-Chest Pain Presentations/04-Acute Coronary Syndromes_setup.json",
-      "password": "noodles"
-    },
-    {
-      "name": "05-Lung Cancer",
-      "displayName": "05-Lung Cancer",
-      "image": "Activities/05-Lung Cancer/Lung Cancer Table.png",
-      "termsFile": "Activities/05-Lung Cancer/Lung Cancer Table_terms.txt",
-      "setupFile": "Activities/05-Lung Cancer/05-Lung Cancer_setup.json",
-      "password": "lava"
-    },
-    {
-      "name": "06-Flow Volume Loop",
-      "displayName": "06-Flow Volume Loop",
-      "image": "Activities/06-Flow Volume Loop/FV loops.png",
-      "termsFile": "Activities/06-Flow Volume Loop/FV loops_terms.txt",
-      "setupFile": "Activities/06-Flow Volume Loop/FlowVolume Loops; Restrictive Obstructive Lung Disease_setup.json",
-      "password": "glacier"
-    },
-    {
-      "name": "07-Antiarrhythmics",
-      "displayName": "07-Antiarrhythmics",
-      "image": "Activities/07-Antiarrhythmics/AA.png",
-      "termsFile": "Activities/07-Antiarrhythmics/aa_terms.txt",
-      "setupFile": "Activities/07-Antiarrhythmics/Antiarrhythmic Activity_setup.json",
-      "password": "uranus"
-    },
-    {
-      "name": "08-Pressure Volume Curve",
-      "displayName": "08-Pressure Volume Curve",
-      "image": "Activities/08-Pressure Volume Curve/PV loop.png",
-      "termsFile": "Activities/08-Pressure Volume Curve/PV loop_terms.txt",
-      "setupFile": "Activities/08-Pressure Volume Curve/Pressure-Volume (PV) Loop_setup.json",
-      "password": "helmet"
-    },
-    {
-      "name": "09-Antimicrobials",
-      "displayName": "09-Antimicrobials",
-      "image": "Activities/09-Antimicrobials/Antimicrobials mechanism of action.png",
-      "termsFile": "Activities/09-Antimicrobials/Antimicrobials mechanism of action_terms.txt",
-      "setupFile": "Activities/09-Antimicrobials/Antimicrobials mechanism of action_setup.json",
-      "password": "falcon"
-    },
-    {
-      "name": "10-Opportunistic Infections",
-      "displayName": "10-Opportunistic Infections",
-      "image": "Activities/10-Opportunistic Infections/AIDS - Defining Illness.png",
-      "termsFile": "Activities/10-Opportunistic Infections/AIDS - Defining Illness_terms.txt",
-      "setupFile": "Activities/10-Opportunistic Infections/AIDS - Defining Illness_setup.json",
-      "password": "sunbeams"
-    },
-    {
-      "name": "11-Shock",
-      "displayName": "11-Shock",
-      "image": "Activities/11-Shock/shock classification.png",
-      "termsFile": "Activities/11-Shock/shock classification_terms.txt",
-      "setupFile": "Activities/11-Shock/shock classification site_setup.json",
-      "password": "chickpea"
-    },
-    {
-      "name": "12-K Shifts",
-      "displayName": "12-K Shifts",
-      "image": "Activities/12-K Shifts/k shifts.png",
-      "termsFile": "Activities/12-K Shifts/k shifts_terms.txt",
-      "setupFile": "Activities/12-K Shifts/K Shifts_setup.json",
-      "password": "booger"
-    },
-    {
-      "name": "13-Diuretics",
-      "displayName": "13-Diuretics",
-      "image": "Activities/13-Diuretics/diarrhea.png",
-      "termsFile": "Activities/13-Diuretics/diarrhea_terms.txt",
-      "setupFile": "Activities/13-Diuretics/Diuretic Site of Action_setup.json",
-      "password": "freckles"
-    },
-    {
-      "name": "14-Innate-Adaptive Immunity",
-      "displayName": "14-Innate-Adaptive Immunity",
-      "image": "Activities/14-Innate-Adaptive Immunity/Innate Vs Adaptive Immunity.png",
-      "termsFile": "Activities/14-Innate-Adaptive Immunity/Innate Vs Adaptive Immunity_terms.txt",
-      "setupFile": "Activities/14-Innate-Adaptive Immunity/Innate vs. Adaptive Immunity_setup.json",
-      "password": "ringo"
-    },
-    {
-      "name": "15-HIV Pharmacology",
-      "displayName": "15-Hiv Pharmacology",
-      "image": "Activities/15-HIV Pharmacology/hiv drugs.png",
-      "termsFile": "Activities/15-HIV Pharmacology/hiv drugs_terms.txt",
-      "setupFile": "Activities/15-HIV Pharmacology/HIV Drugs_setup.json",
-      "password": "whisper"
-    },
-    {
-      "name": "16-GFR-RPF Arrows",
-      "displayName": "16-Gfr-Rpf Arrows",
-      "image": "Activities/16-GFR-RPF Arrows/GHT.png",
-      "termsFile": "Activities/16-GFR-RPF Arrows/GHT_terms.txt",
-      "setupFile": "Activities/16-GFR-RPF Arrows/Glomerular Hemodynamics Table_setup.json",
-      "password": "towel"
-    },
-    {
-      "name": "17-Pleural Effusions and Light Criteria",
-      "displayName": "17-Pleural Effusions And Light Criteria",
-      "image": "Activities/17-Pleural Effusions and Light Criteria/Effusions.png",
-      "termsFile": "Activities/17-Pleural Effusions and Light Criteria/effusions_terms.txt",
-      "setupFile": "Activities/17-Pleural Effusions and Light Criteria/Pleural Effusions and Light Criteria_setup.json",
-      "password": "socks"
-    },
-    {
-      "name": "18-Endemic Dimorphic Fungi",
-      "displayName": "18-Endemic Dimorphic Fungi",
-      "image": "Activities/18-Endemic Dimorphic Fungi/endemic dimorphic fungi.png",
-      "termsFile": "Activities/18-Endemic Dimorphic Fungi/terms_terms.txt",
-      "setupFile": "Activities/18-Endemic Dimorphic Fungi/18-Endemic Dimorphic Fungi_setup.json",
-      "password": "murphy"
-    },
-    {
-      "name": "19-HIV Drug Categories",
-      "displayName": "19-Hiv Drug Categories",
-      "image": "Activities/19-HIV Drug Categories/Picture1.png",
-      "termsFile": "Activities/19-HIV Drug Categories/hiv durgs_terms.txt",
-      "setupFile": "Activities/19-HIV Drug Categories/19-HIV Drug Categories_setup.json",
-      "password": "pothole"
-    },
     {
       "name": "Acute Phase Reactants",
       "displayName": "Acute Phase Reactants",
@@ -161,25 +9,11 @@
       "setupFile": "Activities/Acute Phase Reactants/Acute Phase Reactants_setup.json"
     },
     {
-      "name": "Coagulation cascade",
-      "displayName": "Coagulation Cascade",
-      "image": "Activities/Coagulation cascade/Coagulation cascade.png",
-      "termsFile": "Activities/Coagulation cascade/Coagulation cascade_terms.txt",
-      "setupFile": "Activities/Coagulation cascade/Coagulation cascade_setup.json"
-    },
-    {
       "name": "Normal ECG and Conduction",
       "displayName": "Normal Ecg And Conduction",
       "image": "Activities/Normal ECG and Conduction/Screenshot 2026-11-04 102938.png",
       "termsFile": "Activities/Normal ECG and Conduction/conduction_terms.txt",
       "setupFile": "Activities/Normal ECG and Conduction/Normal ECG and Conduction_setup.json"
-    },
-    {
-      "name": "Pharm_mechanism of action",
-      "displayName": "Pharm Mechanism Of Action",
-      "image": "Activities/Pharm_mechanism of action/pharm_mechanism of action.png",
-      "termsFile": "Activities/Pharm_mechanism of action/pharm_mechanism of actions_terms.txt",
-      "setupFile": "Activities/Pharm_mechanism of action/pharm_mechanism of action_setup.json"
     }
   ]
 }
