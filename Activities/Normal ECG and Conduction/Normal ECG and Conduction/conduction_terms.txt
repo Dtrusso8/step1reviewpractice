@@ -1,7 +1,0 @@
-[random]
-SA Node
-AV Node
-Bundle of His
-Right Bundle Branch
-Left Bundle Branch
-Purkinje Fiber
